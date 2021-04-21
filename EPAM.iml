@@ -4,6 +4,214 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../apache-log4j-2.14.1-bin" />
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-appserver-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-appserver-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-appserver-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-appserver-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-appserver-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-appserver-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-cassandra-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-cassandra-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-cassandra-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-cassandra-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-cassandra-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-cassandra-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1-tests.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1-tests.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-core-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-couchdb-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-couchdb-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-couchdb-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-couchdb-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-couchdb-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-couchdb-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-docker-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-docker-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-docker-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-docker-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-docker-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-docker-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-flume-ng-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-flume-ng-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-flume-ng-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-flume-ng-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-flume-ng-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-flume-ng-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-iostreams-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-iostreams-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-iostreams-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-iostreams-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-iostreams-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-iostreams-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jcl-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jcl-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jcl-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jcl-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jcl-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jcl-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jdbc-dbcp2-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jdbc-dbcp2-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jdbc-dbcp2-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jdbc-dbcp2-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jdbc-dbcp2-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jdbc-dbcp2-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jmx-gui-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jmx-gui-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jmx-gui-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jmx-gui-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jmx-gui-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jmx-gui-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jpa-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jpa-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jpa-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jpa-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jpa-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jpa-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jul-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jul-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jul-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jul-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jul-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-jul-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-liquibase-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-liquibase-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-liquibase-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-liquibase-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-liquibase-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-liquibase-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb3-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb3-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb3-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb3-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb3-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb3-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb4-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb4-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb4-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb4-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb4-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-mongodb4-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j-impl-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j-impl-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j-impl-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j-impl-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j-impl-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j-impl-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j18-impl-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j18-impl-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j18-impl-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j18-impl-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j18-impl-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-slf4j18-impl-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-boot-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-boot-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-boot-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-boot-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-boot-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-boot-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-cloud-config-client-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-cloud-config-client-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-cloud-config-client-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-cloud-config-client-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-cloud-config-client-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-spring-cloud-config-client-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-taglib-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-taglib-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-taglib-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-taglib-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-taglib-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-taglib-2.14.1.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-to-slf4j-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-to-slf4j-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-to-slf4j-2.14.1-sources.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-to-slf4j-2.14.1-sources.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-to-slf4j-2.14.1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-web-2.14.1-javadoc.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-web-2.14.1-javadoc.jar!/" isTestSource="false" />
+    </content>
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-web-2.14.1-sources.jar!/" />
+    <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-web-2.14.1.jar!/">
+      <sourceFolder url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-web-2.14.1.jar!/" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
