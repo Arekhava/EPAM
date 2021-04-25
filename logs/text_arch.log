@@ -1,12 +1,12 @@
-19:00:31.984 [Runner] ERROR Runner - line is invalid
-19:00:32.006 [Runner] ERROR Runner - line is invalid
-19:00:32.009 [Runner] ERROR Runner - line is invalid
-19:01:36.333 [Runner] INFO  Runner - line is invalid
-19:01:36.347 [Runner] INFO  Runner - line is invalid
-19:01:36.352 [Runner] INFO  Runner - line is invalid
-19:06:05.329 [Runner] INFO  Runner - line is invalid1
-19:06:05.347 [Runner] INFO  Runner - line is invalid1
-19:06:05.353 [Runner] INFO  Runner - line is invalid1
-19:19:16.255 [Runner] INFO  Runner - line is invalid1
-19:19:16.276 [Runner] INFO  Runner - line is invalid1
-19:19:16.280 [Runner] INFO  Runner - line is invalid1
+02:49:20.230 [Parser] INFO  Parser - NumberFormatException
+02:49:20.250 [Runner] INFO  Runner - line is invalid
+02:49:20.255 [Parser] INFO  Parser - NumberFormatException
+02:49:20.257 [Runner] INFO  Runner - line is invalid
+02:49:20.259 [Parser] INFO  Parser - NumberFormatException
+02:49:20.261 [Runner] INFO  Runner - line is invalid
+02:51:30.614 [Parser] INFO  Parser - NumberFormatException
+02:51:30.628 [Runner] INFO  Runner - line is invalid
+02:51:30.632 [Parser] INFO  Parser - NumberFormatException
+02:51:30.633 [Runner] INFO  Runner - line is invalid
+02:51:30.635 [Parser] INFO  Parser - NumberFormatException
+02:51:30.637 [Runner] INFO  Runner - line is invalid

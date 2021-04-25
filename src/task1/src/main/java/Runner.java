@@ -18,6 +18,7 @@ import java.util.List;
 public class Runner
 {
     static Logger logger= LogManager.getLogger();
+
     private IReader reader;
     private IParser parser;
     private IService service;
@@ -60,7 +61,8 @@ public class Runner
             }
             catch (CustomException e)
             {
-                logger.info("line is invalid1");
+                logger.info("line is invalid");
+               // logger.error("line is invalid1");
 
                 continue;
             }
