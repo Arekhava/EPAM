@@ -216,5 +216,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="log4j-1.2-api-2.14.1" level="project" />
   </component>
 </module>
