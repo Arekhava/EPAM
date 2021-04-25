@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../apache-log4j-2.14.1-bin" />
     <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1-javadoc.jar!/">
@@ -218,5 +219,8 @@
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="log4j-1.2-api-2.14.1" level="project" />
     <orderEntry type="library" name="testng-7.5.0-20210414.111757-21" level="project" />
+    <orderEntry type="library" name="log4j-1.2-api-2.14.1-javadoc" level="project" />
+    <orderEntry type="library" name="log4j-1.2-api-2.14.1-javadoc1" level="project" />
+    <orderEntry type="library" name="apache-log4j-2.12.1-bin (1)" level="project" />
   </component>
 </module>
