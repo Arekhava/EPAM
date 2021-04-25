@@ -13,7 +13,6 @@ import task1.src.main.java.service.IService;
 import task1.src.main.java.service.Service;
 import task1.src.main.java.validator.IValidator;
 import task1.src.main.java.validator.Validator;
-
 import java.util.List;
 
 public class Runner
