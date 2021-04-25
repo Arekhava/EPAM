@@ -14,7 +14,6 @@ public class Service implements IService {
                 max = number;
             }
         }
-        System.out.println(max);
     }
 
     @Override
@@ -30,12 +29,15 @@ public class Service implements IService {
     }
 
     @Override
-        public void getSum(task1.src.main.java.ArrayEntity entity) {
+        public void getSum(task1.src.main.java.ArrayEntity entity)
+    {
         int sum=0;
-        for (int i = 0; i < ArrayEntity.length; i++){
-            sum = +sum;
+        for (int i = 0; i < ArrayEntity.length; i++)
+        {
+            sum++;
         }
     }
+
 }
 
 
