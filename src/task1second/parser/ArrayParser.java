@@ -1,4 +1,4 @@
-package task1second;
+package task1second.parser;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

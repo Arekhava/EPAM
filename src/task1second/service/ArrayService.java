@@ -1,4 +1,6 @@
-package task1second;
+package task1second.service;
+
+import task1second.entity.ArrayEntity;
 
 import java.util.Arrays;
 
@@ -7,7 +9,7 @@ public class ArrayService implements IArrayService
     int[] ArrayEntity;
 
     @Override
-    public void getMax(ArrayEntity entity)
+    public void getMax(task1second.entity.ArrayEntity entity)
     {
         int max = ArrayEntity[0];
         for (int number : ArrayEntity)
