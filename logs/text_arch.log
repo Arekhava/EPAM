@@ -10,3 +10,45 @@
 02:51:30.633 [Runner] INFO  Runner - line is invalid
 02:51:30.635 [Parser] INFO  Parser - NumberFormatException
 02:51:30.637 [Runner] INFO  Runner - line is invalid
+02:57:32.017 [Parser] INFO  Parser - NumberFormatException
+02:57:32.043 [Runner] INFO  Runner - line is invalid
+02:57:32.048 [Parser] INFO  Parser - NumberFormatException
+02:57:32.049 [Runner] INFO  Runner - line is invalid
+02:57:32.050 [Parser] INFO  Parser - NumberFormatException
+02:57:32.057 [Runner] INFO  Runner - line is invalid
+13:07:47.213 [Parser] INFO  Parser - NumberFormatException
+13:07:47.282 [Runner] INFO  Runner - line is invalid
+13:07:47.282 [Parser] INFO  Parser - NumberFormatException
+13:07:47.282 [Runner] INFO  Runner - line is invalid
+13:07:47.282 [Parser] INFO  Parser - NumberFormatException
+13:07:47.282 [Runner] INFO  Runner - line is invalid
+13:08:35.969 [Parser] INFO  Parser - NumberFormatException
+13:08:35.989 [Runner] INFO  Runner - line is invalid
+13:08:35.989 [Parser] INFO  Parser - NumberFormatException
+13:08:35.989 [Runner] INFO  Runner - line is invalid
+13:08:35.997 [Parser] INFO  Parser - NumberFormatException
+13:08:35.997 [Runner] INFO  Runner - line is invalid
+19:36:13.781 [Parser] INFO  Parser - NumberFormatException
+19:36:13.811 [Runner] INFO  Runner - line is invalid
+19:36:13.821 [Parser] INFO  Parser - NumberFormatException
+19:36:13.821 [Runner] INFO  Runner - line is invalid
+19:36:13.829 [Parser] INFO  Parser - NumberFormatException
+19:36:13.831 [Runner] INFO  Runner - line is invalid
+19:37:16.935 [Parser] INFO  Parser - NumberFormatException
+19:37:16.973 [Runner] INFO  Runner - line is invalid
+19:37:16.973 [Parser] INFO  Parser - NumberFormatException
+19:37:16.973 [Runner] INFO  Runner - line is invalid
+19:37:16.973 [Parser] INFO  Parser - NumberFormatException
+19:37:16.988 [Runner] INFO  Runner - line is invalid
+14:25:02.647 [Parser] INFO  Parser - NumberFormatException
+14:25:02.677 [Runner] INFO  Runner - line is invalid
+14:25:02.683 [Parser] INFO  Parser - NumberFormatException
+14:25:02.686 [Runner] INFO  Runner - line is invalid
+14:25:02.688 [Parser] INFO  Parser - NumberFormatException
+14:25:02.689 [Runner] INFO  Runner - line is invalid
+14:25:48.001 [Parser] INFO  Parser - NumberFormatException
+14:25:48.014 [Runner] INFO  Runner - line is invalid
+14:25:48.018 [Parser] INFO  Parser - NumberFormatException
+14:25:48.019 [Runner] INFO  Runner - line is invalid
+14:25:48.020 [Parser] INFO  Parser - NumberFormatException
+14:25:48.021 [Runner] INFO  Runner - line is invalid

@@ -12,6 +12,10 @@ public class ArrayEntity {
         this.array = array;
     }
 
+    public ArrayEntity() {
+
+    }
+
     public Integer[] getArray() {
         return array;
     }

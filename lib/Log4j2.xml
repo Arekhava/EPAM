@@ -53,9 +53,8 @@
             <AppenderRef ref="FileZip" />
         </Logger>
 
-        <!-- Root Logger -->
+
         <Root level="all">
-            <AppenderRef ref="Console"/>
             <AppenderRef ref="File1" />
             <AppenderRef ref="FileRolling" />
             <AppenderRef ref="FileZip" />
