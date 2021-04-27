@@ -1,19 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:Catalogue xmlns:c="http://www.eclipse.org/webtools/Catalogue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eclipse.org/webtools/Catalogue Catalogue.xsd ">
-    <c:Book>
-        <title>Professional XML Schema</title>
-        <date>2001</date>
-        <isbn>1-861005-47-4</isbn>
-        <publisher>Wrox Press</publisher>
-    </c:Book>
-    <c:Magazine>
-        <title>WebSphere Developer's Journal</title>
-        <date>2001</date>
-    </c:Magazine>
-    <c:Book>
-        <title>Java and XSLT</title>
-        <date>2001</date>
-        <isbn>0-596-00143-6</isbn>
-        <publisher>O'Reilly</publisher>
-    </c:Book>
-</c:Catalogue>
+<Papers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.example.com/papers"
+         xsi:schemaLocation="http://www.example.com/Papers Papers.xsd">
+<Papers>
+    <Paper>
+        <title>Полацкi Вестнiк</title>
+        <subject>news</subject>
+        <date> 2021</date>
+        <type>newspaper</type>
+        <periodicity>daily</periodicity>
+        <publisher>РК "Полоцкий Вестник"</publisher>
+        <pages>18</pages>
+        <glossy>no </glossy>
+        <colored>no</colored>
+        <web>https://www.pvestnik.by/</web>
+        <subscription>329586923484</subscription>
+    </Paper>
+    <Paper>
+        <title>Cosmopolitan</title>
+        <subject>fashion</subject>
+        <date> 2021</date>
+        <type>magazine</type>
+        <periodicity>monthly</periodicity>
+        <publisher> ООО "Фэшн Пресс"</publisher>
+        <pages>70</pages>
+        <glossy>yes </glossy>
+        <colored>yes</colored>
+        <web>https://www.cosmo.ru/</web>
+        <subscription>32958691284</subscription>
+    </Paper>
+    <Paper>
+        <title>National Geographic</title>
+        <subject>fashion</subject>
+        <date> 2021</date>
+        <type>magazine</type>
+        <periodicity>monthly</periodicity>
+        <publisher>ООО «Ясно Паблишинг»</publisher>
+        <pages>50</pages>
+        <glossy>yes </glossy>
+        <colored>yes</colored>
+        <web>https://nat-geo.ru/</web>
+        <subscription>329586987694</subscription>
+    </Paper>
+    <Paper>
+        <title>Звязда</title>
+        <subject>news</subject>
+        <date> 2021</date>
+        <type>newspaper</type>
+        <periodicity>daily</periodicity>
+        <publisher>РВУ “Выдавецкі дом “Звязда”</publisher>
+        <pages>26</pages>
+        <glossy>no </glossy>
+        <colored>no</colored>
+        <web>https://zviazda.by/</web>
+        <subscription>3295863423284</subscription>
+    </Paper>
+    <Paper>
+        <title>Аргументы и факты</title>
+        <subject>туцы</subject>
+        <date> 2021</date>
+        <type>newspaper</type>
+        <periodicity>daily</periodicity>
+        <publisher>АО «Аргументы и Факты»</publisher>
+        <pages>42</pages>
+        <glossy>no </glossy>
+        <colored>yes</colored>
+        <web>https://aif.ru/</web>
+        <subscription>32958623284</subscription>
+    </Paper>
+    <Paper>
+        <title>Медицинский вестник</title>
+        <subject>medicine</subject>
+        <date> 2021</date>
+        <type>newspaper</type>
+        <periodicity>weekly</periodicity>
+        <publisher>РУП «Редакция газеты «Медицинский вестник»</publisher>
+        <pages>20</pages>
+        <glossy>no </glossy>
+        <colored>yes</colored>
+        <web>https://medvestnik.by/</web>
+        <subscription>32958691284</subscription>
+    </Paper>
+</Papers>

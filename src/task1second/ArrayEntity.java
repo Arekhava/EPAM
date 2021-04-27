@@ -1,4 +1,4 @@
-package task1.src.main.java;
+package task1second;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

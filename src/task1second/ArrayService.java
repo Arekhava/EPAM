@@ -1,29 +1,25 @@
-package task1.src.main.java.service;
-
-
-import task1.src.main.java.ArrayEntity;
+package task1second;
 
 import java.util.Arrays;
 
-public class Service implements IService
+public class ArrayService implements IArrayService
 {
     int[] ArrayEntity;
 
     @Override
-    public void getMax(task1.src.main.java.ArrayEntity entity)
+    public void getMax(ArrayEntity entity)
     {
         int max = ArrayEntity[0];
         for (int number : ArrayEntity)
         {
-            if (number > max)
-            {
+            if (number > max) {
                 max = number;
             }
         }
     }
 
     @Override
-    public void getMin(task1.src.main.java.ArrayEntity entity)
+    public void getMin(ArrayEntity entity)
     {
         int min = ArrayEntity[0];
         for (int number : ArrayEntity)
@@ -35,7 +31,7 @@ public class Service implements IService
     }
 
     @Override
-        public void getSum(task1.src.main.java.ArrayEntity entity)
+    public void getSum(ArrayEntity entity)
     {
         int sum=0;
         for (int i = 0; i < ArrayEntity.length; i++)
@@ -44,8 +40,9 @@ public class Service implements IService
         }
     }
 
+
     @Override
-    public void getMed(task1.src.main.java.ArrayEntity entity) {
+    public void getMed(ArrayEntity entity) {
         int med=0;
         int sum=0;
         for (int i = 0; i < ArrayEntity.length; i++)
@@ -55,9 +52,9 @@ public class Service implements IService
         med=sum/ArrayEntity.length;
     }
 
+
     @Override
-    public void getPosCount(task1.src.main.java.ArrayEntity entity)
-    {
+    public void getPosCount(ArrayEntity entity) {
         int posCount=0;
 
         for (int i = 0; i < ArrayEntity.length; i++)
@@ -69,8 +66,7 @@ public class Service implements IService
     }
 
     @Override
-    public void getNegCount(task1.src.main.java.ArrayEntity entity)
-    {
+    public void getNegCount(ArrayEntity entity) {
         int negCount=0;
         for (int i = 0; i < ArrayEntity.length; i++)
         {
@@ -81,8 +77,7 @@ public class Service implements IService
     }
 
     @Override
-    public void selectionSort(task1.src.main.java.ArrayEntity entity)
-    {
+    public void selectionSort(ArrayEntity entity) {
         int[] ArrayEntity = new int[0];
         for (int i = 0; i < ArrayEntity.length; i++);
         int i = 0;
@@ -92,8 +87,8 @@ public class Service implements IService
         {
             if (ArrayEntity[j] < min)
             {
-               min = ArrayEntity[j];
-               min_i = j;
+                min = ArrayEntity[j];
+                min_i = j;
             }
         }
         if (i != min_i) {
@@ -101,11 +96,10 @@ public class Service implements IService
             ArrayEntity[i] = ArrayEntity[min_i];
             ArrayEntity[min_i] = tmp;
         }
-     }
+    }
 
     @Override
-    public void bubbleSort(task1.src.main.java.ArrayEntity entity)
-    {
+    public void bubbleSort(ArrayEntity entity) {
         for(int i = ArrayEntity.length-1 ; i > 0 ; i--)
         {
             for(int j = 0 ; j < i ; j++)
@@ -113,21 +107,19 @@ public class Service implements IService
 
                 if( ArrayEntity[j] > ArrayEntity[j+1] )
                 {
-                int tmp = ArrayEntity[j];
-                ArrayEntity[j] = ArrayEntity[j+1];
-                ArrayEntity[j+1] = tmp;
+                    int tmp = ArrayEntity[j];
+                    ArrayEntity[j] = ArrayEntity[j+1];
+                    ArrayEntity[j+1] = tmp;
                 }
             }
         }
     }
 
     @Override
-    public void getSort(task1.src.main.java.ArrayEntity entity)
+    public void getSort(ArrayEntity entity)
     {
+        {
         Arrays.sort(ArrayEntity);
+        }
     }
-
 }
-
-
-
