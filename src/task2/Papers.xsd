@@ -1,24 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="http://www.example.com/Papers"
-        xmlns:tns="http://www.example.com/Papers"
+        <schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/papers"
+        xmlns:tns="http://www.example.com/papers"
         elementFormDefault="qualified">
 
-    <element name="Papers">
-        <sequence>
 
-            <element name="title" type="string"></element>
-            <element name="subject" type="string"></element>
-            <element name="date" type="gYear"></element>
-            <element name="type" type="string"></element>
-            <element name="publisher" type="string"></element>
-            <element name="pages" type="positiveInteger"></element>
-            <element name="glossy" type="string"></element>
-            <element name="colored" type="string"></element>
-            <element name="web" type="string"></element>
-            <element name="subcription" type="positiveInteger"></element>
-
-        </sequence>
+    <element name="papers" type="tns:Papers" abstract="true"/>
+    <element name="newspaper" type="tns:Newspaper" substitutionGroup="tns:papers"/>
+    <element name="magazine" type="tns:Magazine" substitutionGroup="tns:papers"/>
+    <element name="flowers">
+        <complexType>
+            <sequence>
+                <element ref="tns:papers"
+                         minOccurs="1"
+                         maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
     </element>
 
+    <complexType name="Papers">
+        <sequence>
+            <element name="title" type="tns:Title"/>
+            <element name="publisher" type="string" />
+            <element name="pages" type="integer" />
+            <element name="glossy" type="string" />
+            <element name="date" type="date"/>
+            </sequence>
+        <attribute name="subject" type="tns:Subject" use="optional"/>
+        <attribute name="periodicity" type="tns:holidayRelease" use="optional" />
+        <attribute name="liner-gift" type="tns:gifts" use="optional" default="optional"/>
+        <attribute name="colored" type="tns:ColoredPages" use="optional"/>
+    </complexType>
+
+    <complexType name="Magazine">
+        <complexContent>
+            <extension base="tns:Papers">
+                <sequence>
+                    <element name="name" type="string" />
+                    <element name="web" type="string" />
+                    <element name="subscription" type="ID" />
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Newspaper">
+        <complexContent>
+            <extension base="tns:Papers">
+                <sequence>
+                    <element name="title" type="string" />
+                    <element name="web" type="string" />
+                    <element name="subscription" type="ID" />
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <simpleType name="Title">
+        <restriction base="ID" />
+    </simpleType>
+
+    <simpleType name="Subject">
+        <restriction base="string">
+            <enumeration value="Politic"/>
+            <enumeration value="Economy"/>
+            <enumeration value="Society"/>
+            <enumeration value="Fashion"/>
+            <enumeration value="Medicine"/>
+            <enumeration value="Education"/>
+            <enumeration value="Science"/>
+            <enumeration value="Sport"/>
+            <enumeration value="Beauty"/>
+            <enumeration value="Local news"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="holidayRelease">
+        <restriction base="string">
+            <enumeration value="NewYear"/>
+            <enumeration value="WomansDay"/>
+            <enumeration value="MagazineBirthday"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="ColoredPages">
+        <restriction base="string">
+            <enumeration value="cover"/>
+            <enumeration value="advertising"/>
+            <enumeration value="holiday"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="gifts">
+        <restriction base="string">
+            <enumeration value="cream"/>
+            <enumeration value="booklet"/>
+            <enumeration value="postcard"/>
+        </restriction>
+    </simpleType>
 </schema>
