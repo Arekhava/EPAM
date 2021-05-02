@@ -8,7 +8,7 @@
     <element name="papers" type="tns:Papers" abstract="true"/>
     <element name="newspaper" type="tns:Newspaper" substitutionGroup="tns:papers"/>
     <element name="magazine" type="tns:Magazine" substitutionGroup="tns:papers"/>
-    <element name="flowers">
+    <element name="periodicals">
         <complexType>
             <sequence>
                 <element ref="tns:papers"
@@ -20,16 +20,20 @@
 
     <complexType name="Papers">
         <sequence>
-            <element name="title" type="tns:Title"/>
+            <element name="periodicity" type="string" />
             <element name="publisher" type="string" />
             <element name="pages" type="integer" />
             <element name="glossy" type="string" />
             <element name="date" type="date"/>
             </sequence>
-        <attribute name="subject" type="tns:Subject" use="optional"/>
+        <attribute name="title" type="tns:Title" use="required"/>
+        <attribute name="subject" type="tns:Subject" use="required"/>
+        <attribute name="subject1" type="tns:Subject" use="optional"/>
+        <attribute name="subject2" type="tns:Subject" use="optional"/>
         <attribute name="periodicity" type="tns:holidayRelease" use="optional" />
-        <attribute name="liner-gift" type="tns:gifts" use="optional" default="optional"/>
+        <attribute name="liner-gift" type="tns:gifts" use="optional"/>
         <attribute name="colored" type="tns:ColoredPages" use="optional"/>
+        <attribute name="anycolored" type="tns:ColoredPages" use="optional"/>
     </complexType>
 
     <complexType name="Magazine">
@@ -85,6 +89,7 @@
 
     <simpleType name="ColoredPages">
         <restriction base="string">
+            <enumeration value="full"/>
             <enumeration value="cover"/>
             <enumeration value="advertising"/>
             <enumeration value="holiday"/>

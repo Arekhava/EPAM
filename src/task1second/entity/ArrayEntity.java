@@ -9,6 +9,9 @@ public class ArrayEntity {
     private Integer[] array;
 
     public ArrayEntity(Integer[] array) {
+        if (array == null || array.length == 0) {
+            throw new IllegalArgumentException("Array should not be null!");
+        }
         this.array = array;
     }
 
@@ -17,22 +20,17 @@ public class ArrayEntity {
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         String result = "";
-        if (array != null)
-        {
+        if (array != null) {
             StringBuilder sb = new StringBuilder();
-            for (Integer number : array)
-            {
+            for (Integer number : array) {
                 sb.append(number);
                 sb.append(",");
             }
             sb.deleteCharAt(sb.length() - 1);
             result = sb.toString();
-        }
-        else
-        {
+        } else {
             logger.info("Array=null");
         }
         return result;

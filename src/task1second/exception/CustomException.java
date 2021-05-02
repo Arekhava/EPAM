@@ -1,7 +1,6 @@
 package task1second.exception;
 
-public class CustomException extends RuntimeException
-{
+public class CustomException extends Exception {
     public CustomException(String errorMessage)
     {
         super(errorMessage);

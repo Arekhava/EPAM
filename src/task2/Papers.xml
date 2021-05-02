@@ -1,90 +1,68 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<Papers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<periodicals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns="http://www.example.com/papers"
-        xsi:schemaLocation="http://www.example.com/papers Papers.xml">
-    
-    <Papers>
-    <Newspaper>
-        <title>Полацкi Вестнiк</title >
+        xsi:schemaLocation="http://www.example.com/papers Papers.xsd">
+
+    <newspaper title="Полоцкий Вестник" subject="Local news" >
         <web>https://www.pvestnik.by/</web>
         <subscription>329586923484</subscription>
-        <subject
-        >Local news</subject>
         <periodicity>daily</periodicity>
         <publisher>РК "Полоцкий Вестник"</publisher>
         <pages>18</pages>
         <glossy>no</glossy>
         <date>29.04.2021</date>
-    </Newspaper>
+    </newspaper>
 
-    <Magazine>
-        <title>Cosmopolitan</title>
+    <magazine title="Cosmopolitan"  subject="Fashion" subject1="Beauty" periodicity="WomansDay" liner-gift="cream" colored="full">
         <web>https://www.cosmo.ru/</web>
         <subscription>32958691284</subscription>
-        <subject>Fashion</subject>
         <date> 08.03.2021</date>
-        <periodicity>monthly</periodicity>
         <publisher> ООО "Фэшн Пресс"</publisher>
         <pages>70</pages>
         <glossy>yes </glossy>
-        <colored>cover</colored>
-        <colored>advertising</colored>
-        <holidayRelease>WomansDay</holidayRelease>
-        <gifts>cream</gifts>
-    </Magazine>
+    </magazine>
 
-    <Magazine>
-        <title>National Geographic</title>
+    <magazine title="National Geographic" subject="Science" subject1="Education" colored="full">
         <web>https://nat-geo.ru/</web>
         <subscription>329586987694</subscription>
-        <subject>Science</subject>
         <date> 01.04.2021</date>
         <periodicity>monthly</periodicity>
         <publisher>ООО «Ясно Паблишинг»</publisher>
         <pages>50</pages>
         <glossy>yes </glossy>
-        <colored>cover</colored>
-        <colored>advertising</colored>
-    </Magazine>
+    </magazine>
 
-    <Newspaper>
-        <title>Звязда</title>
+    <newspaper title="Звязда" subject="Politic" subject1="Economy" subject2="Society">
         <web>https://zviazda.by/</web>
         <subscription>3295863423284</subscription>
-        <subject>Politic</subject>
         <date> 30.04.2021</date>
         <periodicity>daily</periodicity>
         <publisher>РВУ “Выдавецкі дом “Звязда”</publisher>
         <pages>26</pages>
         <glossy>no </glossy>
-        <colored>no</colored>
-    </Newspaper>
+    </newspaper>
 
 
-    <Newspaper>
-        <title>Аргументы и факты</title>
+    <newspaper title="Аргументы и факты" subject="Politic" subject1="Economy" subject2="Local news" colored="cover" anycolored="advertising">
         <web>https://aif.ru/</web>
         <subscription>32958623284</subscription>
-        <subject>Politic</subject>
         <date> 30.04.2021</date>
         <periodicity>daily</periodicity>
         <publisher>АО «Аргументы и Факты»</publisher>
         <pages>42</pages>
         <glossy>no </glossy>
-        <colored>cover</colored>
-    </Newspaper>
+    </newspaper>
 
-    <Newspaper>
+    <newspaper title="Медицинский вестник" subject="Medicine" colored="advertising" >
         <title>Медицинский вестник</title>
         <web>https://medvestnik.by/</web>
-        <subject>Medicine</subject>
         <subscription>32958691284</subscription>
         <date>01.04.2021</date>
         <periodicity>weekly</periodicity>
         <publisher>РУП «Редакция газеты «Медицинский вестник»</publisher>
         <pages>20</pages>
         <glossy>no </glossy>
-        <colored>yes</colored>
-    </Newspaper>
-    </Papers>
+
+    </newspaper>
+</periodicals>
