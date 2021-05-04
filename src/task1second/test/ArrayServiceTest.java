@@ -29,7 +29,7 @@ public void setEntity(){
     public void testFindMin() {
         int actual =arrayService.findMin(entity);
         int expected =-10;
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(actual, expected,0);
 
     }
 
@@ -37,7 +37,7 @@ public void setEntity(){
     public void testFindSum() {
         int actual=arrayService.findSum(entity);
         int expected=14;
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(actual, expected,0);
 
     }
 
@@ -45,7 +45,7 @@ public void setEntity(){
     public void testFindMed() {
         int actual=arrayService.findMed(entity);
         int expected=3;
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(actual, expected,0);
 
 
     }
@@ -54,21 +54,21 @@ public void setEntity(){
     public void testFindPosCount() {
         int actual=arrayService.findPosCount(entity);
         int expected=3;
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(actual, expected,0);
     }
 
     @Test
     public void testFindNegCount() {
         int actual=arrayService.findNegCount(entity);
         int expected=1;
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(actual, expected,0);
     }
 
     @Test
     public void testSelectionSort() {
         ArrayEntity actual=new ArrayEntity(new Integer[]{4,-10,8,12});
         ArrayEntity expected=new ArrayEntity(new Integer[]{-10, 4, 8, 12});
-        arrayService.selectionSort(expected);
+        arrayService.selectionSort(actual);
         Assert.assertEquals(actual, expected);
     }
 
@@ -76,7 +76,7 @@ public void setEntity(){
     public void testBubbleSort() {
         ArrayEntity actual=new ArrayEntity(new Integer[]{4,-10,8,12});
         ArrayEntity expected=new ArrayEntity(new Integer[]{-10, 4, 8, 12});
-        arrayService.bubbleSort(expected);
+        arrayService.bubbleSort(actual);
         Assert.assertEquals(actual, expected);
 
     }
@@ -85,7 +85,7 @@ public void setEntity(){
     public void testGetSort() {
         ArrayEntity actual=new ArrayEntity(new Integer[]{4,-10,8,12});
         ArrayEntity expected=new ArrayEntity(new Integer[]{-10, 4, 8, 12});
-        arrayService.getSort(expected);
+        arrayService.getSort(actual);
         Assert.assertEquals(actual, expected);
     }
 }
