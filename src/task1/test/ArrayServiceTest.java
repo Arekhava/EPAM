@@ -1,11 +1,11 @@
-package task1second.test;
+package task1.test;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import task1second.entity.ArrayEntity;
-import task1second.service.ArrayService;
-import task1second.service.ArrayServiceImpl;
+import task1.entity.ArrayEntity;
+import task1.service.ArrayService;
+import task1.service.ArrayServiceImpl;
 
 
 

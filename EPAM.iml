@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/task1/test" />
     </content>
     <content url="file://$MODULE_DIR$/../apache-log4j-2.14.1-bin" />
     <content url="jar://$MODULE_DIR$/../apache-log4j-2.14.1-bin/log4j-api-2.14.1-javadoc.jar!/">

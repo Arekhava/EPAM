@@ -1,4 +1,4 @@
-package task1second.test;
+package task1.test;
 
 import org.testng.annotations.Test;
 

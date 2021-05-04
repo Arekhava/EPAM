@@ -1,6 +1,6 @@
-package task1second.service;
+package task1.service;
 
-import task1second.entity.ArrayEntity;
+import task1.entity.ArrayEntity;
 
 import java.util.Arrays;
 

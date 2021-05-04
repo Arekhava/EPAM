@@ -1,4 +1,4 @@
-package task1second.validator;
+package task1.validator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
