@@ -4,11 +4,9 @@ import task1second.entity.ArrayEntity;
 
 import java.util.Arrays;
 
-public class ArrayServiceImpl implements ArrayService
-{
+public class ArrayServiceImpl implements ArrayService {
     @Override
-    public int getMax(ArrayEntity entity)
-    {
+    public int findMax(ArrayEntity entity) {
         Integer[] array = entity.getArray();
         int max = array[0].intValue();
         for (Integer number : array)
@@ -21,8 +19,7 @@ public class ArrayServiceImpl implements ArrayService
     }
 
     @Override
-    public int getMin(ArrayEntity entity)
-    {
+    public int findMin(ArrayEntity entity) {
         Integer[] array = entity.getArray();
         int min = array[0].intValue();
         for (Integer number : array)
@@ -35,8 +32,7 @@ public class ArrayServiceImpl implements ArrayService
     }
 
     @Override
-    public int getSum(ArrayEntity entity)
-    {
+    public int findSum(ArrayEntity entity) {
         Integer[] array = entity.getArray();
         int sum = 0;
         for (int i = 0; i < array.length; i++)
@@ -48,7 +44,7 @@ public class ArrayServiceImpl implements ArrayService
 
 
     @Override
-    public int getMed(ArrayEntity entity) {
+    public int findMed(ArrayEntity entity) {
         Integer[] array = entity.getArray();
         int sum=0;
         int count = array.length;
@@ -62,7 +58,7 @@ public class ArrayServiceImpl implements ArrayService
 
 
     @Override
-    public int getPosCount(ArrayEntity entity) {
+    public int findPosCount(ArrayEntity entity) {
         int posCount=0;
         Integer[] array = entity.getArray();
         for (int i = 0; i < array.length; i++)
@@ -75,7 +71,7 @@ public class ArrayServiceImpl implements ArrayService
     }
 
     @Override
-    public int getNegCount(ArrayEntity entity) {
+    public int findNegCount(ArrayEntity entity) {
         int negCount=0;
         Integer[] array = entity.getArray();
         for (int i = 0; i < array.length; i++)
@@ -122,8 +118,7 @@ public class ArrayServiceImpl implements ArrayService
     }
 
     @Override
-    public void getSort(ArrayEntity entity)
-    {
+    public void getSort(ArrayEntity entity) {
         Integer[] array = entity.getArray();
         Arrays.sort(array);
     }
