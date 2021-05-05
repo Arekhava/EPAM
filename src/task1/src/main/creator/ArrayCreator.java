@@ -1,6 +1,6 @@
-package creator;
+package src.main.creator;
 
-import entity.ArrayEntity;
+import src.main.entity.ArrayEntity;
 
 
 public class ArrayCreator

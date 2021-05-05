@@ -1,6 +1,6 @@
-package service;
+package src.main.service;
 
-import entity.ArrayEntity;
+import src.main.entity.ArrayEntity;
 
 import java.util.Arrays;
 

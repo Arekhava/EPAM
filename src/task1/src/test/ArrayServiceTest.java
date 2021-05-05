@@ -1,9 +1,11 @@
-package service;
+package src.test;
 
-import entity.ArrayEntity;
+import src.main.entity.ArrayEntity;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import src.main.service.ArrayService;
+import src.main.service.ArrayServiceImpl;
 
 import static org.testng.Assert.*;
 
@@ -16,7 +18,7 @@ public class ArrayServiceTest {
 
         @BeforeClass
         public void setEntity() {
-            entity = new ArrayEntity(new Integer[]{4, -10, 8, 12});
+            entity = new ArrayEntity(new Integer[]{4,-10,8,12});
             arrayService = (ArrayService) new ArrayServiceImpl();
         }
 
@@ -68,25 +70,28 @@ public class ArrayServiceTest {
 
         @Test
         public void testSelectionSort() {
-            ArrayEntity actual = new ArrayEntity(new  Integer[]{4, -10, 8, 12});
-            ArrayEntity expected = new ArrayEntity(new  Integer[]{-10, 4, 8, 12});
+            ArrayEntity actual = new ArrayEntity(new  Integer[]{4,-10,8,12});
+            ArrayEntity expected = new ArrayEntity(new  Integer[]{-10,4,8,12});
             arrayService.selectionSort(actual);
             assertEquals(actual, expected, "Test failed as...");
         }
 
         @Test
         public void testBubbleSort() {
-            ArrayEntity actual = new ArrayEntity(new  Integer[]{4, -10, 8, 12});
-            ArrayEntity expected = new ArrayEntity(new  Integer[]{-10, 4, 8, 12});
+            ArrayEntity actual = new ArrayEntity(new  Integer[]{4,-10,8,12});
+            ArrayEntity expected = new ArrayEntity(new  Integer[]{-10,4,8,12});
+            arrayService.bubbleSort(actual);
+
             arrayService.bubbleSort(actual);
             assertEquals(actual, expected, "Test failed as...");
+
 
         }
 
         @Test
         public void testGetSort() {
-            ArrayEntity actual = new ArrayEntity(new  Integer[]{4, -10, 8, 12});
-            ArrayEntity expected = new ArrayEntity(new  Integer[]{-10, 4, 8, 12});
+            ArrayEntity actual = new ArrayEntity(new  Integer[]{4,-10,8,12});
+            ArrayEntity expected = new ArrayEntity(new  Integer[]{-10,4,8,12});
             arrayService.getSort(actual);
             assertEquals(actual, expected, "Test failed as...");
         }

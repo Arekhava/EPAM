@@ -25,6 +25,7 @@
     </orderEntry>
     <orderEntry type="library" name="log4j-1.2-api-2.14.1" level="project" />
     <orderEntry type="library" name="src" level="project" />
-    <orderEntry type="library" name="testng-7.5.0-20210414.111757-21" level="project" />
+    <orderEntry type="library" name="testng-7.5.0-20210414.111757-21" level="application" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

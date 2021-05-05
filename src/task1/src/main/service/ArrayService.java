@@ -1,7 +1,7 @@
-package service;
+package src.main.service;
 
 
-import entity.ArrayEntity;
+import src.main.entity.ArrayEntity;
 
 public interface ArrayService {
 

@@ -1,4 +1,4 @@
-package entity;
+package src.main.entity;
 
 
 import org.apache.logging.log4j.LogManager;
@@ -13,6 +13,7 @@ public class ArrayEntity {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Array should not be null!");
         }
+        logger.info("Array should not be null!");
         this.array = array;
     }
 

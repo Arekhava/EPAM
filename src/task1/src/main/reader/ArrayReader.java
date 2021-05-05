@@ -1,6 +1,6 @@
-package reader;
+package src.main.reader;
 
-import exception.CustomException;
+import src.main.exception.CustomException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
