@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="jar://$USER_HOME$/Downloads/testng-7.5.0-20210414.111757-21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/test" />
+    </SOURCES>
+  </library>
+</component>

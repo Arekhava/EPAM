@@ -1,4 +1,4 @@
-package task1.exception;
+package exception;
 
 public class CustomException extends Exception {
     public CustomException(String errorMessage)

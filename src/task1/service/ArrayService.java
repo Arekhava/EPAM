@@ -1,7 +1,7 @@
-package task1.service;
+package service;
 
 
-import task1.entity.ArrayEntity;
+import entity.ArrayEntity;
 
 public interface ArrayService {
 

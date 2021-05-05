@@ -1,13 +1,15 @@
-package task1.entity;
+package entity;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class ArrayEntity {
     static Logger logger= LogManager.getLogger();
 
     private Integer[] array;
 
-    public ArrayEntity(int[] array) {
+    public ArrayEntity(Integer[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Array should not be null!");
         }

@@ -1,15 +1,17 @@
-package task1.reader;
+package reader;
 
+import exception.CustomException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import task1.exception.CustomException;
+
 
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 import java.io.IOException;
-import java.util.logging.LogManager;
+
+
 
 public class ArrayReader {
     static Logger logger= LogManager.getLogger();

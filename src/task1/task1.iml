@@ -8,7 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" scope="TEST">
+    <orderEntry type="module-library" exported="" scope="TEST">
       <library name="testng">
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/" />
@@ -23,7 +23,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="log4j-core-2.14.1" level="project" />
+    <orderEntry type="library" name="log4j-1.2-api-2.14.1" level="project" />
+    <orderEntry type="library" name="src" level="project" />
     <orderEntry type="library" name="testng-7.5.0-20210414.111757-21" level="project" />
   </component>
 </module>

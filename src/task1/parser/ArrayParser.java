@@ -1,8 +1,8 @@
-package task1.parser;
+package parser;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import task1.exception.CustomException;
+import exception.CustomException;
 import task1.validator.ArrayValidator;
 
 import java.util.Arrays;

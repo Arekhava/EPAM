@@ -1,6 +1,7 @@
-package task1.creator;
+package creator;
 
-import task1.entity.ArrayEntity;
+import entity.ArrayEntity;
+
 
 public class ArrayCreator
 {
